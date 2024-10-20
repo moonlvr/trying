@@ -1,0 +1,70 @@
+body {
+background-image: url(/images\ used/background.jpeg
+);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  rgb(214, 168, 122);
+  margin:-10px;
+  padding:10px;
+  opacity: 0.9;
+
+  
+}
+.right-side ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  
+  align-items: center;
+  width: 320px;
+ 
+}
+
+.left-side{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#searchIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: -47px;
+  cursor: pointer;
+ 
+
+}
+
+.search-bar {
+  width: 300px;
+  height: 50px;
+  border-radius: 100px ;
+  background: transparent;
+  border: 2px solid;
+  border-color:rgb(163, 124, 17);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding-left: 10px;
+}
+.search-bar::placeholder {
+  padding-left: -3px;
+  color: rgb(165, 134, 42);
+  font-weight:500;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(128, 100, 14);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 3px;
+    padding-right: 4px;
+  }
+  nav ul li a:hover{
+    color: rgb(251, 251, 255);
+  }
+
+ 
